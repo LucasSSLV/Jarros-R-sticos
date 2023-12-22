@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="title-principal">
-        <Title name="Jarros Rústicos" />
+        <Title name="Jarros Store" />
       </div>
       <div className="social-icons">
         <div className='title-conect'>
