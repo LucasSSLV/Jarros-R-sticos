@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.bgGlobal {
+  padding-top: 7px;
+  border: none;
+  background: linear-gradient(45deg, #0660811d, #39034420, #1d040478);
+}
+
+.product-image {
+  width: 510px;
+  height: 510px;
+  border-radius: 50%;
+}
+
+.title-apresentacao {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(243, 243, 243);
+}
+
+.card-apresentacao {
+  display: block;
+}
+
+.title-cardApresentacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  font-family: serif;
+  color: rgb(5, 0, 0);
+  background: rgb(253, 244, 225);
+  height: 70px;
+}
+.arrow {
+  font-size: 20px;
+  color: #25d36500;
+}
+
+.title-card {
+  text-align: center;
+  color: rgb(4, 32, 32);
+}
+
+.title-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  font-size: 23px;
+  font-family: monospace;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  background: #e8dce8;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-conect {
+  font-family: serif;
+  margin-bottom: 1px;
+  margin-right: 5px;
+  font-size: 10px;
+  border-radius: 3px;
+  border-bottom: 1px solid #2b7ee3;
+  line-height: 0%;
+}
+
+.icon {
+  font-size: 24px;
+}
+.instagram-icon {
+  color: #e4405f; /* Cor do Instagram */
+}
+
+.whatsapp-icon {
+  color: #25d366; /* Cor do WhatsApp */
+}
+
+.global-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e8dce8;
+  width: auto;
+  height: 50px;
+}
+
+.button-footer {
+  border: none;
+  border-radius: 50px;
+  width: 90px;
+  height: 40px;
+  background-color: #4caf50; /* Cor de fundo do botão */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-footer:hover {
+  background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+  transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+  box-shadow: -3px -3px 10px rgba(183, 183, 11, 0.359); /* Sombra ao passar o mouse */
+}
+
+/* Infos.css */
+
+.info-text {
+  margin-right: 100px;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease; /* Transição suave para a mudança de cor */
+}
