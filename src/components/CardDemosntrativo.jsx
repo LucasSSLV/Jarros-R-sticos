@@ -8,7 +8,7 @@ export default function CardDemosntrativo({
   // productName,
 }) {
   return (
-    <div>
+    <div className="product">
       <img
         className="product-image"
         src={productImage}

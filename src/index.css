@@ -8,12 +8,19 @@ body {
 }
 
 .bgGlobal {
+  display: block;
+  justify-content: center;
   padding-top: 7px;
   border: none;
   background: linear-gradient(45deg, #0660811d, #39034420, #1d040478);
 }
 
+.product{
+  display: flex;
+  justify-self: center;
+}
 .product-image {
+  margin-left: 120px;
   width: 510px;
   height: 510px;
   border-radius: 50%;
