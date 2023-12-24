@@ -7,11 +7,11 @@ import "./index.css";
 function App() {
 
   return (
-    <>
-    <Header />
+    <div>
+      <Header />
       <ApresentacaoDeProdutos />
       <Footer />
-    </>
+    </div>
   );
 }
 

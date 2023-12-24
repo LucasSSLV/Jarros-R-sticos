@@ -1,16 +1,14 @@
-import React from "react";
-import Title from "./Title";
 import PropTypes from "prop-types";
-import ".././index.css";
+import styles from "./styles/CardDemosntrativo.module.css";
 
 export default function CardDemosntrativo({
   productImage,
   // productName,
 }) {
   return (
-    <div className="product">
+    <div className={ styles.product }>
       <img
-        className="product-image"
+        className={ styles.productImage }
         src={productImage}
         alt={`product=${productImage}`}
       />

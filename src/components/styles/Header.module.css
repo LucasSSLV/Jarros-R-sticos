@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header  h1 {
+  font-family: monospace;
+  color: var(--color-nonary);
+}
+
+.h2Social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.contato {
+  width: 50%;
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contato h2 {
+  font-size: x-large;
+  text-decoration: none;
+  color: var(--color-quaternary);
+}
+
+.socialIncos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  max-width: 50%;
+  padding-bottom: 1rem;
+}
+
+.socialIncos > a:nth-child(1) .icons {
+  font-size: xx-large;
+  color: rgb(194, 25, 180); /* Color for Instagram */
+}
+
+.socialIncos > a:nth-child(2) .icons {
+  font-size: xx-large;
+  color: green; /* Color for WhatsApp */
+}

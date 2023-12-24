@@ -1,32 +1,25 @@
-import CardDemosntrativo from "./CardDemosntrativo";
-import Title from "./Title";
-import imagesDate from "../assets/Date/imagesDate";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import "slick-carousel/slick/slick.css";
+import imagesDate from "../assets/Date/imagesDate";
+import CardDemosntrativo from "./CardDemosntrativo";
+import styles from "./styles/ApresentacaoDeProdutos.module.css";
 
 export default function ApresentacaoDeProdutos() {
   const settings = {
     dots: false,
     infinite: true,
     speed: 1813,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1458,
+    autoplaySpeed: 2500,
   };
 
   return (
-    <div >
-      <div className="title-cardApresentacao">
-      <Title name="Alguns dos Meus Trabalhos" />
-      <div className="arrow">
-        <FontAwesomeIcon icon={faArrowDown} />
-      </div>
-      </div>
-      <div className="bgGlobal">
+    <div className={ styles.slidesMain }>
+      <h3>Algumas de nossas artes</h3>
+      <div className={ styles.global }>
         <Slider {...settings}>
           {imagesDate.map((image) => (
             <div key={image.name}>
