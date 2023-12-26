@@ -44,7 +44,7 @@ export default function Header() {
             <FontAwesomeIcon icon={faInstagram} className={ styles.icons } />
           </a>
           <a
-            href="https://wa.me/+55 88 9452-1711"
+            href="https://wa.me/+558894521711"
             target="_blank"
             rel="noopener noreferrer"
           >
